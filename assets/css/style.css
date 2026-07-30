@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#f8f9fa;
+}
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1600');
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.btn{
+    padding:12px 35px;
+}
