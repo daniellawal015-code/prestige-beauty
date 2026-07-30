@@ -260,3 +260,96 @@ SERVICES
     }
 
 }
+/*=====================
+WHY US
+=====================*/
+
+.why-us{
+
+    padding:100px 0;
+
+    background:#111;
+
+}
+
+.why-us .section-title h2{
+
+    color:white;
+
+}
+
+.why-us .section-title p{
+
+    color:#bbb;
+
+}
+
+.why-card{
+
+    background:#1d1d1d;
+
+    padding:40px 25px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    height:100%;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    background:#252525;
+
+}
+
+.why-icon{
+
+    width:80px;
+
+    height:80px;
+
+    background:var(--gold);
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+}
+
+.why-icon i{
+
+    font-size:30px;
+
+    color:#111;
+
+}
+
+.why-card h4{
+
+    color:white;
+
+    margin-bottom:15px;
+
+    font-family:'Playfair Display', serif;
+
+}
+
+.why-card p{
+
+    color:#bbb;
+
+}
