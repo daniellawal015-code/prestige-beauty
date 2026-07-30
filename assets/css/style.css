@@ -1,12 +1,67 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    background:#f8f9fa;
+/* =========================================
+   Prestige Beauty - Global Styles
+========================================= */
+
+:root{
+    --gold:#D4AF37;
+    --black:#111111;
+    --white:#ffffff;
+    --light:#f8f8f8;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--white);
+    color:var(--black);
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background:rgba(0,0,0,.85)!important;
+    backdrop-filter:blur(12px);
+    padding:18px 0;
+}
+
+.navbar-brand{
+    font-family:'Playfair Display',serif;
+    font-size:30px;
+    color:var(--gold)!important;
+}
+
+.nav-link{
+    color:white!important;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:var(--gold)!important;
+}
+
+.btn-warning{
+    background:var(--gold);
+    border:none;
+    color:black;
+    font-weight:600;
+}
+
+/* ================= HERO ================= */
+
 .hero{
-    height:90vh;
-    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
     url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1600');
+
     background-size:cover;
     background-position:center;
 
@@ -14,20 +69,194 @@ body{
     justify-content:center;
     align-items:center;
 
-    color:white;
     text-align:center;
+    color:white;
+
+}
+
+.hero-content{
+
+    max-width:800px;
+
 }
 
 .hero h1{
-    font-size:60px;
-    font-weight:bold;
+
+    font-family:'Playfair Display',serif;
+
+    font-size:70px;
+
+    margin-bottom:20px;
+
 }
 
 .hero p{
+
     font-size:22px;
-    margin:20px 0;
+
+    margin-bottom:35px;
+
 }
 
-.btn{
-    padding:12px 35px;
+.btn-book{
+
+    background:var(--gold);
+
+    color:black;
+
+    padding:15px 45px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-book:hover{
+
+    background:white;
+
+    color:black;
+
+}
+/*==========================
+SERVICES
+==========================*/
+
+.services{
+
+    padding:100px 0;
+
+    background:#fafafa;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-title h2{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:48px;
+
+    color:#111;
+
+}
+
+.section-title p{
+
+    color:#777;
+
+    margin-top:15px;
+
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.service-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    padding:20px;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+}
+.service-image{
+
+    width:100%;
+
+    height:220px;
+
+    overflow:hidden;
+
+    border-radius:15px;
+
+    margin-bottom:25px;
+
+}
+
+.service-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.service-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.service-card h3{
+
+    margin-bottom:15px;
+
+    font-family:'Playfair Display',serif;
+
+}
+@media (max-width:768px){
+
+    .hero h1{
+
+        font-size:42px;
+
+    }
+
+    .section-title h2{
+
+        font-size:36px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .service-card{
+
+        margin-bottom:20px;
+
+    }
+
 }
