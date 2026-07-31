@@ -6,7 +6,9 @@
 
         <div class="section-title">
 
-            <h2>What Our Clients Say</h2>
+            <h2 style="color:white; font-size:60px;">
+    What Our Clients Say
+</h2>
 
             <p>
                 We take pride in delivering unforgettable beauty experiences.

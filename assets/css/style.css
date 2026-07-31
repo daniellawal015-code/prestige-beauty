@@ -438,7 +438,7 @@ TESTIMONIALS
 
 .testimonials{
 
-    padding:100px 0;
+    padding:80px 0;
 
     background:#111;
 
@@ -545,5 +545,158 @@ TESTIMONIALS
 grid-template-columns:1fr;
 
 }
+
+}
+/* CTA */
+
+.cta-section{
+
+    padding:100px 20px;
+
+    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("../images/gallery/interior.jpg");
+
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+
+}
+
+.cta-section h2{
+
+    font-size:56px;
+    margin-bottom:20px;
+
+}
+
+.cta-section p{
+
+    font-size:20px;
+    max-width:700px;
+    margin:auto auto 40px;
+    color:#ddd;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+.btn-outline{
+
+    padding:14px 36px;
+    border:2px solid #d4af37;
+    color:#d4af37;
+    text-decoration:none;
+    border-radius:40px;
+    transition:.4s;
+
+}
+
+.btn-outline:hover{
+
+    background:#d4af37;
+    color:#111;
+
+}
+
+@media(max-width:768px){
+
+.cta-section h2{
+
+    font-size:38px;
+
+}
+
+.cta-section p{
+
+    font-size:17px;
+
+}
+
+}
+.section-title::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #d4af37;
+    margin: 20px auto 0;
+    border-radius: 20px;
+}
+.cta{
+    position: relative;
+    background: url("../images/gallery/interior.jpg") center/cover no-repeat;
+    padding: 140px 0;
+    overflow: hidden;
+}
+
+.cta::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.80)
+    );
+}
+
+.cta .container{
+    position: relative;
+    z-index: 2;
+}
+.cta-line{
+    width:90px;
+    height:4px;
+    background:#d4af37;
+    margin:25px auto;
+    border-radius:20px;
+}
+.cta .btn-book{
+    padding:16px 38px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.cta .btn-book:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 35px rgba(212,175,55,.35);
+}
+
+.cta .btn-outline{
+    border:2px solid #d4af37;
+    color:#d4af37;
+    padding:16px 38px;
+    border-radius:50px;
+    transition:.35s;
+}
+
+.cta .btn-outline:hover{
+    background:#d4af37;
+    color:#111;
+}
+.cta-content{
+    animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 
 }
