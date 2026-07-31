@@ -549,79 +549,109 @@ grid-template-columns:1fr;
 }
 /* CTA */
 
-.cta-section{
+.cta{
+    position: relative;
 
-    padding:100px 20px;
+    background: url("../images/gallery/interior.jpg") center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
-    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
-    url("../images/gallery/interior.jpg");
+    padding: 140px 0;
+    overflow: hidden;
+    transition: .6s ease;
+}
+.cta:hover{
+    background-size: 105%;
+}
 
-    background-size:cover;
-    background-position:center;
+.cta-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        rgba(0,0,0,.82),
+        rgba(0,0,0,.70)
+    );
+
+}
+
+.cta .container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta-content{
+
     text-align:center;
+
+    max-width:800px;
+
+    margin:auto;
+
     color:white;
 
 }
 
-.cta-section h2{
+.cta-badge{
 
-    font-size:56px;
+    display:inline-block;
+
+    background:rgba(212,175,55,.15);
+
+    border:1px solid rgba(212,175,55,.5);
+
+    color:#d4af37;
+
+    padding:10px 22px;
+
+    border-radius:40px;
+
+    margin-bottom:55px;
+
+    font-weight:600;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.cta h2{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:64px;
+
     margin-bottom:20px;
 
 }
 
-.cta-section p{
+.cta p{
 
-    font-size:20px;
-    max-width:700px;
-    margin:auto auto 40px;
+    font-size:22px;
+
     color:#ddd;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
 
 }
 
 .cta-buttons{
 
     display:flex;
+
     justify-content:center;
+
     gap:20px;
+
     flex-wrap:wrap;
 
-}
-
-.btn-outline{
-
-    padding:14px 36px;
-    border:2px solid #d4af37;
-    color:#d4af37;
-    text-decoration:none;
-    border-radius:40px;
-    transition:.4s;
-
-}
-
-.btn-outline:hover{
-
-    background:#d4af37;
-    color:#111;
-
-}
-
-@media(max-width:768px){
-
-.cta-section h2{
-
-    font-size:38px;
-
-}
-
-.cta-section p{
-
-    font-size:17px;
-
-}
-
-}
-.section-title::after{
+}.section-title::after{
     content: "";
     display: block;
     width: 80px;
@@ -630,73 +660,85 @@ grid-template-columns:1fr;
     margin: 20px auto 0;
     border-radius: 20px;
 }
-.cta{
-    position: relative;
-    background: url("../images/gallery/interior.jpg") center/cover no-repeat;
-    padding: 140px 0;
-    overflow: hidden;
-}
+.btn-book{
 
-.cta::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        rgba(0,0,0,.75),
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.80)
-    );
-}
-
-.cta .container{
-    position: relative;
-    z-index: 2;
-}
-.cta-line{
-    width:90px;
-    height:4px;
     background:#d4af37;
-    margin:25px auto;
-    border-radius:20px;
-}
-.cta .btn-book{
-    padding:16px 38px;
-    border-radius:50px;
-    font-weight:600;
-    transition:.35s;
-}
 
-.cta .btn-book:hover{
-    transform:translateY(-4px);
-    box-shadow:0 15px 35px rgba(212,175,55,.35);
-}
-
-.cta .btn-outline{
-    border:2px solid #d4af37;
-    color:#d4af37;
-    padding:16px 38px;
-    border-radius:50px;
-    transition:.35s;
-}
-
-.cta .btn-outline:hover{
-    background:#d4af37;
     color:#111;
+
+    padding:16px 36px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.35s;
+
 }
-.cta-content{
-    animation:fadeUp 1s ease;
+
+.btn-book:hover{
+
+    background:white;
+
+    transform:translateY(-4px);
+
 }
 
-@keyframes fadeUp{
+.btn-outline{
 
-    from{
-        opacity:0;
-        transform:translateY(40px);
-    }
+    border:2px solid #d4af37;
 
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+    color:#d4af37;
+
+    padding:16px 36px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.btn-outline:hover{
+
+    background:#d4af37;
+
+    color:#111;
+
+}
+@media(max-width:768px){
+
+.cta{
+
+padding:90px 20px;
+
+}
+
+.cta h2{
+    max-width:700px;
+    margin:0 auto 25px;
+    line-height:1.15;
+}
+
+.cta p{
+
+font-size:18px;
+
+}
+
+}
+.cta{
+    transition:.6s;
+}
+
+.cta:hover{
+    background-size:105%;
+}
+.btn-book{
+
+    box-shadow:0 10px 25px rgba(212,175,55,.35);
 
 }

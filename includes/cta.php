@@ -1,24 +1,31 @@
-<section class="cta-section">
+<section class="cta">
+
+    <div class="cta-overlay"></div>
 
     <div class="container">
 
-        <h2>Ready for Your Luxury Transformation?</h2>
-        <div class="cta-line"></div>
+        <div class="cta-content">
 
-        <p>
-            Book your appointment today and let our experts
-            transform your beauty experience.
-        </p>
+            
 
-        <div class="cta-buttons">
+            <h2>Ready to Experience Luxury?</h2>
 
-            <a href="booking.php" class="btn-book">
-                Book Appointment
-            </a>
+            <p>
+                Book your appointment today and let our expert stylists,
+                nail technicians and spa therapists pamper you.
+            </p>
 
-            <a href="contact.php" class="btn-outline">
-                Contact Us
-            </a>
+            <div class="cta-buttons">
+
+                <a href="booking.php" class="btn-book">
+                    Book Appointment
+                </a>
+
+                <a href="contact.php" class="btn-outline">
+                    Contact Us
+                </a>
+
+            </div>
 
         </div>
 
