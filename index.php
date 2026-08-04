@@ -8,4 +8,5 @@
 <?php include 'includes/gallery-preview.php'; ?>
 <?php include 'includes/testimonials.php'; ?>
 <?php include 'includes/cta.php'; ?>
+
 <?php include 'includes/footer.php'; ?>

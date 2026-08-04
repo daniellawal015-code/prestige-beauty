@@ -51,6 +51,48 @@ body{
     color:black;
     font-weight:600;
 }
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background:transparent;
+    transition:all .4s ease;
+    padding:20px 0;
+    z-index:999;
+}
+
+.navbar.scrolled{
+    background:rgba(10,10,10,.96);
+    backdrop-filter:blur(12px);
+    box-shadow:0 5px 25px rgba(0,0,0,.35);
+    padding:12px 0;
+}
+
+.navbar-brand{
+    font-family:'Playfair Display', serif;
+    font-size:30px;
+    color:#fff !important;
+}
+
+.nav-link{
+    color:#fff !important;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#d4af37 !important;
+}
+
+.btn-warning{
+    background:#d4af37;
+    border:none;
+    color:#111;
+    font-weight:600;
+}
+
+.btn-warning:hover{
+    background:#e6c65a;
+}
 
 /* ================= HERO ================= */
 
@@ -71,7 +113,15 @@ body{
 
     text-align:center;
     color:white;
+    
 
+}
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:100px;
 }
 
 .hero-content{
@@ -87,7 +137,12 @@ body{
     font-size:70px;
 
     margin-bottom:20px;
+    
 
+}
+.hero h1{
+    max-width:900px;
+    margin:0 auto;
 }
 
 .hero p{
@@ -129,7 +184,7 @@ SERVICES
 
 .services{
 
-    padding:100px 0;
+    padding:120px 0;
 
     background:#fafafa;
 
@@ -855,4 +910,69 @@ font-size:18px;
 .footer h3:hover,
 .footer h4:hover{
     color:#d4af37;
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* ================= PAGE HERO ================= */
+
+.page-hero{
+
+    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("../images/gallery/interior.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    padding:180px 20px 120px;
+
+    text-align:center;
+
+    color:#fff;
+
+}
+
+.page-hero h1{
+
+    font-size:64px;
+
+    font-family:'Playfair Display', serif;
+
+    margin-bottom:20px;
+
+}
+
+.page-hero p{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#ddd;
+
+}
+
+@media(max-width:768px){
+
+.page-hero h1{
+
+    font-size:42px;
+
+}
+
+.page-hero p{
+
+    font-size:18px;
+
+}
+
 }
