@@ -38,3 +38,88 @@
     </div>
 
 </section>
+<!-- Contact Information -->
+
+<section class="contact-info">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                GET IN TOUCH
+            </span>
+
+            <h2>We're Always Here To Help</h2>
+
+            <p>
+                Whether you have a question, need assistance,
+                or want to book an appointment,
+                we'd love to hear from you.
+            </p>
+
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📞
+                </div>
+
+                <h3>Phone</h3>
+
+                <p>+234 813 192 1905</p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <h3>Location</h3>
+
+                <p>
+                    Badagry, Lagos State,
+                    Nigeria
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    ✉️
+                </div>
+
+                <h3>Email</h3>
+
+                <p>
+                    hello@prestigebeauty.com
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    🕒
+                </div>
+
+                <h3>Opening Hours</h3>
+
+                <p>
+                    Mon – Sat <br>
+                    9:00 AM – 8:00 PM
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
