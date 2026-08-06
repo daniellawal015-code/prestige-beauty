@@ -1614,3 +1614,153 @@ color:#666;
 line-height:1.9;
 
 }
+/*==========================
+      SERVICE SHOWCASE
+==========================*/
+
+.service-showcase{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.service-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.service-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-self:center;
+    max-width:560px;
+}
+
+.service-content .section-tag{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:42px;
+    padding:8px 16px;
+    margin-bottom:18px;
+    border-radius:999px;
+    width:max-content;
+}
+
+.service-image{
+    height: 100%;
+    min-height: 620px;      /* Adjust as needed */
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.service-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-image:hover img{
+    transform:scale(1.05);
+}
+
+.service-content h2{
+    font-size:50px;
+    line-height:1.1;
+    margin:0 0 18px;
+    color:#111;
+    max-width:300px;
+}
+
+.service-content p{
+    color:#666;
+    line-height:1.9;
+    margin:0 0 30px;
+    max-width:560px;
+}
+
+.service-features{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:14px 24px;
+    margin-bottom:36px;
+}
+
+.service-features div{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    font-weight:600;
+    line-height:1.6;
+}
+
+.service-features i{
+    color:#d4af37;
+    margin-top:4px;
+    flex-shrink:0;
+}
+
+.service-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:8px;
+}
+
+.price{
+    background:#d4af37;
+    color:#111;
+    padding:12px 22px;
+    border-radius:50px;
+    font-weight:700;
+}
+
+@media(max-width:992px){
+
+.service-grid{
+    grid-template-columns:1fr;
+    gap:40px;
+}
+
+.service-image{
+    min-height:420px;
+}
+
+.service-image img{
+    height:450px;
+}
+
+.service-content h2{
+    font-size:38px;
+    max-width:none;
+}
+
+.service-features{
+    grid-template-columns:1fr;
+}
+
+.service-footer{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+}
+.service-showcase{
+    padding: 100px 0;
+}
+
+.service-showcase + .service-showcase{
+    border-top: 1px solid #f2f2f2;
+}
