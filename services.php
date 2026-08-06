@@ -183,3 +183,63 @@
     </div>
 
 </section>
+<!-- ================= BARBER SERVICES ================= -->
+
+<section class="service-showcase">
+
+    <div class="container">
+
+        <div class="service-grid">
+
+            <div class="service-image">
+
+                <img src="assets/images/service-images/barber.jpg" alt="Barber Services">
+
+            </div>
+
+            <div class="service-content">
+
+                <span class="section-tag">
+                    Barber Services
+                </span>
+
+                <h2>Modern Grooming Experience</h2>
+
+                <p>
+                    Experience precision haircuts, beard grooming and luxury
+                    barber services tailored for the modern gentleman.
+                    Our skilled barbers combine classic techniques with
+                    contemporary styles to ensure you always leave looking sharp.
+                </p>
+
+                <div class="service-features">
+
+                    <div><i class="fa-solid fa-check"></i> Premium Haircuts</div>
+
+                    <div><i class="fa-solid fa-check"></i> Beard Grooming</div>
+
+                    <div><i class="fa-solid fa-check"></i> Hot Towel Shave</div>
+
+                    <div><i class="fa-solid fa-check"></i> Hair Styling</div>
+
+                </div>
+
+                <div class="service-footer">
+
+                    <span class="price">
+                        Starting from 7$
+                    </span>
+
+                    <a href="booking.php" class="btn-book">
+                        Book Appointment
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
