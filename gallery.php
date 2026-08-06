@@ -51,15 +51,19 @@
 
         <div class="gallery-filter">
 
-            <button class="active">All</button>
-            <button>Hair</button>
-            <button>Nails</button>
-            <button>Barber</button>
-            <button>Spa</button>
-            <button>Bridal</button>
+    <button class="active" data-filter="all">All</button>
 
-        </div>
+    <button data-filter="hair">Hair</button>
 
+    <button data-filter="nail">Nails</button>
+
+    <button data-filter="barber">Barber</button>
+
+    <button data-filter="spa">Spa</button>
+
+    <button data-filter="bridal">Bridal</button>
+
+</div>
         <!-- Gallery Grid -->
 
         <div class="gallery-grid">
@@ -114,18 +118,68 @@
 
     </div>
 </section>
-<div class="gallery-filter">
+<section class="gallery-stats">
 
-<button class="active" data-filter="all">All</button>
+    <div class="container">
 
-<button data-filter="hair">Hair</button>
+        <div class="section-header">
 
-<button data-filter="nail">Nails</button>
+            <span class="section-tag">WHY CHOOSE PRESTIGE</span>
 
-<button data-filter="barber">Barber</button>
+            <h2>Excellence Measured In Every Detail</h2>
 
-<button data-filter="spa">Spa</button>
+            <p>
+                We create unforgettable beauty experiences through
+                expert craftsmanship, premium products and
+                exceptional customer care.
+            </p>
 
-<button data-filter="bridal">Bridal</button>
+        </div>
 
-</div>
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h3>500+</h3>
+                <p>Happy Clients</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>1200+</h3>
+                <p>Appointments</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>5★</h3>
+                <p>Average Rating</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>6+</h3>
+                <p>Premium Services</p>
+            </div>
+
+        </div>
+
+        <div class="stats-buttons">
+
+            <a href="booking.php" class="btn-primary">
+                Book Appointment
+            </a>
+
+            <a href="contact.php" class="btn-outline">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Footer -->
+    <?php include 'includes/footer.php'; ?>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
