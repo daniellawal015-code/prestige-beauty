@@ -997,7 +997,7 @@ font-size:18px;
     text-align: center;
     background:
         linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
-        url("../images/gallery/about-hero.jpg");
+        url("../images/gallery/interior.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1989,7 +1989,7 @@ line-height:1.9;
 
     background:
     linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url('../gallery/hero/gallery-hero.jpg');
+    url('../images/portfolio/gallery-hero.jpg');
 
     background-size:cover;
 
