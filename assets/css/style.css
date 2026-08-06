@@ -1969,3 +1969,92 @@ line-height:1.9;
     background:#d4af37;
     color:#111;
 }
+/* ===============================
+   GALLERY HERO
+================================ */
+
+.gallery-hero{
+
+    position:relative;
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('../gallery/hero/gallery-hero.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    color:#fff;
+
+}
+
+.gallery-hero .container{
+
+    max-width:850px;
+
+    padding:0 20px;
+
+}
+
+.gallery-hero .section-tag{
+
+    display:inline-block;
+
+    padding:10px 26px;
+
+    border:1px solid rgba(212,175,55,.45);
+
+    border-radius:999px;
+
+    color:#d4af37;
+
+    letter-spacing:2px;
+
+    margin-bottom:30px;
+
+    font-size:.85rem;
+
+}
+
+.gallery-hero h1{
+
+    font-size:clamp(3rem,6vw,5.8rem);
+
+    line-height:1.1;
+
+    margin-bottom:25px;
+
+}
+
+.gallery-hero h1 span{
+
+    color:#d4af37;
+
+}
+
+.gallery-hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    color:#ddd;
+
+    font-size:1.15rem;
+
+    margin-bottom:45px;
+
+}
