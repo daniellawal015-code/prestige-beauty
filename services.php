@@ -193,7 +193,7 @@
 
             <div class="service-image">
 
-                <img src="assets/images/service-images/barber.jpg" alt="Barber Services">
+                <img src="assets/images/service-images/services-barber.jpg" alt="Barber Services">
 
             </div>
 
