@@ -1509,3 +1509,73 @@ font-size:18px;
   line-height: 1.6;
   margin: 0;
 }
+/*==========================
+        SERVICES HERO
+==========================*/
+
+.services-hero{
+
+    position:relative;
+
+    height:75vh;
+
+    min-height:650px;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../images/service-images/services-hero.jpg")
+    center/cover no-repeat;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+.services-hero .hero-content{
+
+    max-width:760px;
+
+    margin:auto;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.services-hero h1{
+
+    color:#fff;
+
+    font-size:64px;
+
+    line-height:1.15;
+
+    margin:25px 0;
+
+}
+
+.services-hero p{
+
+    color:#f5f5f5;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+}

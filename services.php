@@ -5,50 +5,29 @@
 
 <section class="page-hero services-hero">
 
-    <div class="page-overlay"></div>
+    <div class="hero-overlay"></div>
 
     <div class="container">
 
-        <div class="page-content">
+        <div class="hero-content">
 
             <span class="section-tag">
                 Our Services
             </span>
 
             <h1>
-                Premium Beauty Services Designed Around You
+                Luxury Beauty Services Crafted Around You
             </h1>
 
             <p>
-                From luxury hair styling and flawless nail artistry to
-                relaxing spa treatments and professional grooming, we
-                deliver beauty experiences you'll never forget.
+                Experience world-class hair, nails, spa, barber and bridal
+                beauty services delivered by passionate professionals who
+                believe every client deserves excellence.
             </p>
 
-        </div>
-
-    </div>
-
-</section>
-<section class="services-intro">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span class="section-tag">
-                Luxury Services
-            </span>
-
-            <h2>
-                Beauty Meets Excellence
-            </h2>
-
-            <p>
-                Every appointment is tailored to your style, personality
-                and comfort using premium products and experienced
-                professionals.
-            </p>
+            <a href="booking.php" class="btn-book">
+                Book Appointment
+            </a>
 
         </div>
 
