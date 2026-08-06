@@ -175,6 +175,40 @@
     </div>
 
 </section>
+<!-- CTA Section -->
+<section class="gallery-cta">
+
+    <div class="container">
+
+        <span class="section-tag">READY FOR YOUR TRANSFORMATION?</span>
+
+        <h2>
+            Your Luxury Beauty Experience
+            <span>Starts Today</span>
+        </h2>
+
+        <p>
+            Whether you're looking for flawless hair styling,
+            luxury nail care, relaxing spa treatments, or the
+            perfect bridal makeover, our expert team is ready
+            to make your vision a reality.
+        </p>
+
+        <div class="cta-buttons">
+
+            <a href="booking.php" class="btn-primary">
+                Book Appointment
+            </a>
+
+            <a href="services.php" class="btn-outline">
+                Explore Services
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
 
