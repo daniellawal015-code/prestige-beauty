@@ -38,6 +38,9 @@
     </div>
 
 </section>
+<div class="section-divider">
+    <span></span>
+</div>
 <!-- Contact Information -->
 
 <section class="contact-info">
@@ -123,3 +126,91 @@
     </div>
 
 </section>
+<!-- Contact Form -->
+
+<section class="contact-form-section" id="contact-form">
+
+    <div class="container">
+
+        <div class="contact-wrapper">
+
+            <!-- LEFT -->
+
+            <div class="contact-form-box">
+
+                <span class="section-tag">
+                    SEND A MESSAGE
+                </span>
+
+                <h2>Let's Talk Beauty</h2>
+
+                <p>
+                    Fill in the form below and our team will
+                    get back to you as soon as possible.
+                </p>
+
+                <form action="#">
+
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        required
+                    >
+
+                    <input
+                        type="tel"
+                        placeholder="Phone Number"
+                    >
+
+                    <select>
+
+                        <option>Select a Service</option>
+
+                        <option>Hair Services</option>
+
+                        <option>Nail Services</option>
+
+                        <option>Barber</option>
+
+                        <option>Spa</option>
+
+                        <option>Bridal</option>
+
+                    </select>
+
+                    <textarea
+                        rows="6"
+                        placeholder="Your Message"
+                    ></textarea>
+
+                    <button class="btn-primary">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="contact-map">
+
+    <iframe
+        src="https://www.google.com/maps?q=Lagos,Nigeria&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</div>
