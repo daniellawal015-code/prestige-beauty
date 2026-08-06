@@ -243,3 +243,63 @@
     </div>
 
 </section>
+<!-- ================= SPA SERVICES ================= -->
+
+<section class="service-showcase">
+
+    <div class="container">
+
+        <div class="service-grid">
+
+            <div class="service-image">
+
+                <img src="assets/images/service-images/spa.jpg" alt="Spa Services">
+
+            </div>
+
+            <div class="service-content">
+
+                <span class="section-tag">
+                    Spa Services
+                </span>
+
+                <h2>Relax • Refresh • Renew</h2>
+
+                <p>
+                    Escape the stress of everyday life with our luxurious spa
+                    treatments. From soothing massages to rejuvenating facials,
+                    every experience is designed to restore your body, mind,
+                    and spirit in a peaceful environment.
+                </p>
+
+                <div class="service-features">
+
+                    <div><i class="fa-solid fa-check"></i> Full Body Massage</div>
+
+                    <div><i class="fa-solid fa-check"></i> Luxury Facials</div>
+
+                    <div><i class="fa-solid fa-check"></i> Body Scrub</div>
+
+                    <div><i class="fa-solid fa-check"></i> Aromatherapy</div>
+
+                </div>
+
+                <div class="service-footer">
+
+                    <span class="price">
+                        Starting from ₦12,000
+                    </span>
+
+                    <a href="booking.php" class="btn-book">
+                        Book Appointment
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
