@@ -363,3 +363,33 @@
     </div>
 
 </section>
+<section class="services-cta">
+    <div class="container">
+
+        <span class="section-tag">LET'S GET STARTED</span>
+
+        <h2>
+            Ready For Your
+            <span>Transformation?</span>
+        </h2>
+
+        <p>
+            Experience premium hair styling, flawless nail care,
+            modern barbering and luxury spa treatments delivered
+            by professionals who care about every detail.
+        </p>
+
+        <div class="cta-buttons">
+
+            <a href="booking.php" class="btn-primary">
+                Book Appointment
+            </a>
+
+            <a href="gallery.php" class="btn-outline">
+                View Gallery
+            </a>
+
+        </div>
+
+    </div>
+</section>
