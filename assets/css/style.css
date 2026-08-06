@@ -1974,29 +1974,23 @@ line-height:1.9;
 ================================ */
 
 .gallery-hero{
-
-    position:relative;
-
-    min-height:90vh;
+    min-height: 90vh;
 
     display:flex;
-
     align-items:center;
-
     justify-content:center;
 
     text-align:center;
 
     background:
-    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url('../images/portfolio/gallery-hero.jpg');
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url('../images/gallery/portfolio/gallery-hero.jpg');
 
     background-size:cover;
-
     background-position:center;
+    background-repeat:no-repeat;
 
     color:#fff;
-
 }
 
 .gallery-hero .container{
