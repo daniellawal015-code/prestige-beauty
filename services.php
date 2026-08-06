@@ -303,3 +303,63 @@
     </div>
 
 </section>
+<!-- ================= BRIDAL BEAUTY ================= -->
+
+<section class="service-showcase">
+
+    <div class="container">
+
+        <div class="service-grid">
+
+            <div class="service-image">
+
+                <img src="assets/images/service-images/bridal.jpg" alt="Bridal Beauty">
+
+            </div>
+
+            <div class="service-content">
+
+                <span class="section-tag">
+                    Bridal Beauty
+                </span>
+
+                <h2>Your Dream Wedding Look</h2>
+
+                <p>
+                    Every bride deserves to feel radiant on her special day.
+                    Our bridal beauty specialists create timeless makeup,
+                    elegant hairstyles and personalized beauty experiences
+                    that make every moment unforgettable.
+                </p>
+
+                <div class="service-features">
+
+                    <div><i class="fa-solid fa-check"></i> Bridal Makeup</div>
+
+                    <div><i class="fa-solid fa-check"></i> Bridal Hairstyling</div>
+
+                    <div><i class="fa-solid fa-check"></i> Pre-Wedding Consultation</div>
+
+                    <div><i class="fa-solid fa-check"></i> Photoshoot Glam</div>
+
+                </div>
+
+                <div class="service-footer">
+
+                    <span class="price">
+                        Starting from ₦50,000
+                    </span>
+
+                    <a href="booking.php" class="btn-book">
+                        Book Appointment
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
