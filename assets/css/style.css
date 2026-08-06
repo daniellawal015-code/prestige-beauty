@@ -1921,3 +1921,51 @@ line-height:1.9;
     color:#111;
 
 }
+.btn-primary{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 38px;
+
+    background:#d4af37;
+
+    color:#111;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    background:#c49b21;
+}
+
+.btn-outline{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 38px;
+
+    border:2px solid #d4af37;
+
+    color:#d4af37;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn-outline:hover{
+    background:#d4af37;
+    color:#111;
+}
