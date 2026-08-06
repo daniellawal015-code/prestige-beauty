@@ -34,3 +34,33 @@
     </div>
 
 </section>
+<!-- INTRO -->
+
+<section class="services-intro">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span class="section-tag">
+                Luxury Experiences
+            </span>
+
+            <h2>
+
+                Beauty Meets Perfection
+
+            </h2>
+
+            <p>
+
+                Every appointment is carefully designed to help you
+                relax, feel confident and leave looking your absolute best.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>

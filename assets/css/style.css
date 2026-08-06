@@ -1579,3 +1579,38 @@ font-size:18px;
     inset:0;
 
 }
+.services-intro{
+
+padding:120px 0 70px;
+
+background:#fff;
+
+}
+
+.services-intro .section-title{
+
+max-width:750px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+.services-intro h2{
+
+font-size:52px;
+
+margin:20px 0;
+
+}
+
+.services-intro p{
+
+font-size:18px;
+
+color:#666;
+
+line-height:1.9;
+
+}
