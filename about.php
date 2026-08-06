@@ -79,7 +79,7 @@
             <article class="mission-card">
                 <div class="mission-icon-shell">
                     <div class="mission-icon">
-                        <i class="fa-solid fa-telescope"></i>
+                        <i class="fa-solid fa-binoculars"></i>
                     </div>
                 </div>
                 <h3>Our Vision</h3>
