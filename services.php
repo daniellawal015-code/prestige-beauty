@@ -253,7 +253,7 @@
 
             <div class="service-image">
 
-                <img src="assets/images/service-images/spa.jpg" alt="Spa Services">
+                <img src="assets/images/service-images/services-spa.jpg" alt="Spa Services">
 
             </div>
 
@@ -263,7 +263,7 @@
                     Spa Services
                 </span>
 
-                <h2>Relax • Refresh • Renew</h2>
+                <h2>Relax • Refresh • Renew •</h2>
 
                 <p>
                     Escape the stress of everyday life with our luxurious spa
@@ -287,7 +287,7 @@
                 <div class="service-footer">
 
                     <span class="price">
-                        Starting from ₦12,000
+                        Starting from 20$
                     </span>
 
                     <a href="booking.php" class="btn-book">
