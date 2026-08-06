@@ -347,7 +347,7 @@
                 <div class="service-footer">
 
                     <span class="price">
-                        Starting from ₦50,000
+                        Starting from 50$
                     </span>
 
                     <a href="booking.php" class="btn-book">
