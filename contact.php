@@ -214,3 +214,186 @@
     </iframe>
 
 </div>
+<!-- FAQ -->
+
+<section class="faq-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                FAQ
+            </span>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <p>
+                Find answers to the questions our clients ask most often.
+            </p>
+
+        </div>
+
+        <div class="faq-container">
+
+            <div class="faq-item active">
+
+                <div class="faq-question">
+
+                    <h3>How do I book an appointment?</h3>
+
+                    <span>+</span>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        You can book online through our booking page,
+                        call us directly, or send us a message.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <h3>Do I need an appointment?</h3>
+
+                    <span>+</span>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Walk-ins are welcome when available, but appointments
+                        are recommended to avoid waiting.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <h3>What payment methods do you accept?</h3>
+
+                    <span>+</span>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        We accept cash, bank transfer and major debit cards.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <h3>Do you offer bridal packages?</h3>
+
+                    <span>+</span>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Yes. We provide customized bridal beauty packages
+                        for weddings and special events.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <div class="faq-question">
+
+                    <h3>Can I cancel or reschedule?</h3>
+
+                    <span>+</span>
+
+                </div>
+
+                <div class="faq-answer">
+
+                    <p>
+                        Yes. Please notify us at least 24 hours before your
+                        appointment.
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="faq-container">
+                
+    <div class="prestige-promise">
+
+        <div class="prestige-promise-content">
+
+            <span class="section-tag">
+                THE PRESTIGE PROMISE
+            </span>
+
+            <h3>
+                Beauty Is Personal.
+            </h3>
+
+            <p class="promise-text">
+                Your experience should be too.
+            </p>
+
+            <div class="promise-list">
+
+                <div>
+                    <span>✦</span>
+                    <p>Premium Beauty Services</p>
+                </div>
+
+                <div>
+                    <span>✦</span>
+                    <p>Experienced Beauty Professionals</p>
+                </div>
+
+                <div>
+                    <span>✦</span>
+                    <p>Personalised Attention</p>
+                </div>
+
+                <div>
+                    <span>✦</span>
+                    <p>A Relaxing Luxury Experience</p>
+                </div>
+
+            </div>
+
+            <a href="booking.php" class="promise-btn">
+                Book Appointment
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+ <script src="assets/js/script.js"></script>
