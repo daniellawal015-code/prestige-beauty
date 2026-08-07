@@ -213,137 +213,133 @@
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
 
-</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 <!-- FAQ -->
 
 <section class="faq-section">
 
     <div class="container">
 
-        <div class="section-header">
+        <div class="faq-container">
 
-            <span class="section-tag">
-                FAQ
-            </span>
+            <div class="faq-column">
 
-            <h2>Frequently Asked Questions</h2>
+                <div class="faq-section-header">
 
-            <p>
-                Find answers to the questions our clients ask most often.
-            </p>
+                    <span class="section-tag">
+                        FAQ
+                    </span>
+
+                    <h2>Frequently Asked Questions</h2>
+
+                    <p>
+                        Find answers to the questions our clients ask most often.
+                    </p>
+
+                </div>
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+
+            <div class="faq-question">
+                <h3>How do I book an appointment?</h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p>
+                    You can book an appointment through our online
+                    booking page or contact our team directly.
+                </p>
+            </div>
 
         </div>
 
-        <div class="faq-container">
 
-            <div class="faq-item active">
+        <div class="faq-item">
 
-                <div class="faq-question">
+            <div class="faq-question">
+                <h3>Do you accept walk-ins?</h3>
+                <span>+</span>
+            </div>
 
-                    <h3>How do I book an appointment?</h3>
+            <div class="faq-answer">
+                <p>
+                    Walk-ins may be accepted depending on availability.
+                    We recommend booking ahead.
+                </p>
+            </div>
 
-                    <span>+</span>
+        </div>
 
-                </div>
 
-                <div class="faq-answer">
+        <div class="faq-item">
 
-                    <p>
-                        You can book online through our booking page,
-                        call us directly, or send us a message.
-                    </p>
+            <div class="faq-question">
+                <h3>What payment methods do you accept?</h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p>
+                    We accept convenient payment methods including
+                    cash and electronic payments.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3>Do you offer bridal packages?</h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p>
+                    Yes. We offer personalised bridal beauty packages
+                    designed for your special day.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3>Can I cancel or reschedule?</h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p>
+                    Yes. Please contact us as early as possible if you
+                    need to cancel or reschedule your appointment.
+                </p>
+            </div>
+
+        </div>
 
                 </div>
 
             </div>
 
-            <div class="faq-item">
 
-                <div class="faq-question">
+            <!-- RIGHT SIDE: PRESTIGE PROMISE -->
+            <div class="prestige-promise">
 
-                    <h3>Do I need an appointment?</h3>
-
-                    <span>+</span>
-
-                </div>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Walk-ins are welcome when available, but appointments
-                        are recommended to avoid waiting.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="faq-item">
-
-                <div class="faq-question">
-
-                    <h3>What payment methods do you accept?</h3>
-
-                    <span>+</span>
-
-                </div>
-
-                <div class="faq-answer">
-
-                    <p>
-                        We accept cash, bank transfer and major debit cards.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="faq-item">
-
-                <div class="faq-question">
-
-                    <h3>Do you offer bridal packages?</h3>
-
-                    <span>+</span>
-
-                </div>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. We provide customized bridal beauty packages
-                        for weddings and special events.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="faq-item">
-
-                <div class="faq-question">
-
-                    <h3>Can I cancel or reschedule?</h3>
-
-                    <span>+</span>
-
-                </div>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Please notify us at least 24 hours before your
-                        appointment.
-                    </p>
-
-                </div>
-
-            </div>
-            <div class="faq-container">
-                
-    <div class="prestige-promise">
-
-        <div class="prestige-promise-content">
+                <div class="prestige-promise-content">
 
             <span class="section-tag">
                 THE PRESTIGE PROMISE
@@ -389,11 +385,10 @@
 
     </div>
 
-</div>
-
         </div>
 
     </div>
 
 </section>
- <script src="assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
+<?php include 'includes/footer.php'; ?>
