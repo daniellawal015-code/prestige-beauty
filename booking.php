@@ -46,8 +46,7 @@
 
         <div class="booking-service-grid">
 
-            <button class="booking-service-card" type="button">
-
+            <button class="booking-service-card" type="button" data-service="hair">
                 <span class="service-icon">✦</span>
 
                 <h3>Hair</h3>
@@ -59,7 +58,7 @@
             </button>
 
 
-            <button class="booking-service-card" type="button">
+            <button class="booking-service-card" type="button" data-service="nail">
 
                 <span class="service-icon">✦</span>
 
@@ -72,7 +71,7 @@
             </button>
 
 
-            <button class="booking-service-card" type="button">
+            <button class="booking-service-card" type="button" data-service="barber">
 
                 <span class="service-icon">✦</span>
 
@@ -85,7 +84,7 @@
             </button>
 
 
-            <button class="booking-service-card" type="button">
+            <button class="booking-service-card" type="button" data-service="spa">
 
                 <span class="service-icon">✦</span>
 
@@ -98,7 +97,7 @@
             </button>
 
 
-            <button class="booking-service-card" type="button">
+            <button class="booking-service-card" type="button" data-service="bridal">
 
                 <span class="service-icon">✦</span>
 

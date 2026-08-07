@@ -87,3 +87,28 @@ faqItems.forEach(item => {
     });
 
 });
+/* =========================================
+   BOOKING SERVICE SELECTION
+========================================= */
+
+const bookingServiceCards = document.querySelectorAll(
+    ".booking-service-card"
+);
+
+bookingServiceCards.forEach(card => {
+
+    card.addEventListener("click", function () {
+
+        bookingServiceCards.forEach(item => {
+            item.classList.remove("selected");
+        });
+
+        this.classList.add("selected");
+
+        const selectedService = this.dataset.service;
+
+        console.log("Selected service:", selectedService);
+
+    });
+
+});
