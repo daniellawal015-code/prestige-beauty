@@ -3065,3 +3065,103 @@ FAQ
     }
 
 }
+/* =========================================
+   BOOKING HERO
+========================================= */
+
+.booking-hero {
+    min-height: 620px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 140px 20px 100px;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.62),
+            rgba(0, 0, 0, 0.62)
+        ),
+         url("https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=2000&q=85");
+    background-size: cover;
+    background-position: center;
+
+    color: #fff;
+}
+
+.booking-hero-content {
+    max-width: 850px;
+}
+
+.booking-hero .section-tag {
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    padding: 10px 22px;
+
+    border: 1px solid #d4af37;
+    border-radius: 30px;
+
+    color: #d4af37;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.booking-hero h1 {
+    margin: 0;
+
+    font-size: clamp(3rem, 7vw, 6rem);
+
+    line-height: 1.05;
+
+    font-weight: 600;
+}
+
+.booking-hero h1 span {
+    display: block;
+
+    color: #d4af37;
+}
+
+.booking-hero p {
+    max-width: 700px;
+
+    margin: 30px auto 0;
+
+    font-size: 18px;
+    line-height: 1.8;
+
+    color: rgba(255, 255, 255, 0.88);
+}
+
+
+/* =========================================
+   BOOKING HERO — MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .booking-hero {
+        min-height: 560px;
+
+        padding: 120px 20px 80px;
+    }
+
+    .booking-hero h1 {
+        font-size: clamp(2.8rem, 12vw, 4.5rem);
+    }
+
+    .booking-hero p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
