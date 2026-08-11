@@ -443,3 +443,39 @@ if (window.location.pathname.includes("checkout.php")) {
         `$${total.toFixed(2)}`;
 
 }
+// =========================================
+// CHECKOUT — CONTINUE TO PAYMENT
+// =========================================
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const checkoutForm =
+        document.getElementById("checkout-form");
+
+    const paymentSection =
+        document.getElementById("payment-section");
+
+    if (!checkoutForm || !paymentSection) {
+        return;
+    }
+
+    checkoutForm.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        // Make sure the form is valid
+        if (!checkoutForm.checkValidity()) {
+
+            checkoutForm.reportValidity();
+
+            return;
+        }
+
+        paymentSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+    });
+
+});
