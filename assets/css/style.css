@@ -3342,7 +3342,7 @@ FAQ
 
 .checkout-hero {
     text-align: center;
-    padding: 90px 20px 60px;
+    padding: 120px 20px 60px;
 }
 
 .checkout-hero .section-tag {
@@ -3597,7 +3597,7 @@ FAQ
 @media (max-width: 600px) {
 
     .checkout-hero {
-        padding: 65px 20px 40px;
+        padding: 90px 20px 40px;
     }
 
     .checkout-section {
