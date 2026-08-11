@@ -29,7 +29,7 @@
 
                 <h2>Appointment Information</h2>
 
-                <form id="checkout-form">
+                <form id="checkout-form" action="payment.php" method="POST">
 
                     <div class="form-group">
 
@@ -160,161 +160,14 @@
 
 
                     <button
-                        type="submit"
-                        class="btn-primary checkout-submit">
-
-                        Continue to Payment
-
+                    type="submit"
+                    class="btn-primary checkout-submit">
+                    Continue to Payment
                     </button>
 
                 </form>
-                <div class="payment-card" id="payment-section">
-
-    <span class="section-tag">
-        PAYMENT
-    </span>
-
-    <h2>Choose Payment Method</h2>
-
-    <div class="payment-methods">
-
-        <button
-            type="button"
-            class="payment-method active"
-            data-payment="transfer">
-
-            <span class="payment-method-icon">
-                <i class="fa-solid fa-building-columns"></i>
-            </span>
-
-            <span class="payment-method-info">
-                <strong>Bank Transfer</strong>
-                <small>
-                    Pay directly to our bank account.
-                </small>
-            </span>
-
-        </button>
-
-
-        <button
-            type="button"
-            class="payment-method"
-            data-payment="card">
-
-            <span class="payment-method-icon">
-                <i class="fa-solid fa-credit-card"></i>
-            </span>
-
-            <span class="payment-method-info">
-                <strong>Card Payment</strong>
-                <small>
-                    Secure card payment.
-                </small>
-            </span>
-
-        </button>
-
-    </div>
-
-
-    <div
-        class="payment-panel transfer-panel">
-
-        <h3>Bank Transfer</h3>
-
-        <p>
-            Transfer the booking amount to the account below.
-            Your appointment will be confirmed after payment
-            has been verified.
-        </p>
-
-        <div class="bank-details">
-
-            <div>
-                <span>Bank Name</span>
-                <strong>YOUR BANK NAME</strong>
+                
             </div>
-
-            <div>
-                <span>Account Name</span>
-                <strong>PRESTIGE BEAUTY</strong>
-            </div>
-
-            <div>
-                <span>Account Number</span>
-                <strong>0000000000</strong>
-            </div>
-
-        </div>
-
-        <p class="payment-note">
-            Please keep your transfer receipt. You may be asked
-            to provide proof of payment.
-        </p>
-
-    </div>
-
-
-    <div
-        class="payment-panel card-panel"
-        style="display:none;">
-
-        <h3>Card Payment</h3>
-
-        <p>
-            Card payments will be available soon.
-        </p>
-
-        <p class="payment-note">
-            Please use Bank Transfer for now.
-        </p>
-
-    </div>
-
-
-    <button
-        type="button"
-        class="btn-primary confirm-booking-btn">
-
-        Confirm Booking
-
-    </button>
-
-</div>
-
-            </div>
-
-
-            <!-- RIGHT: BOOKING SUMMARY -->
-            <aside class="checkout-summary-card">
-
-                <span class="section-tag">
-                    YOUR BOOKING
-                </span>
-
-                <h2>Booking Summary</h2>
-
-                <div
-                    id="checkout-items"
-                    class="checkout-items">
-                </div>
-
-
-                <div class="checkout-summary-total">
-
-                    <span>Total</span>
-
-                    <strong id="checkout-total">
-                        $0.00
-                    </strong>
-
-                </div>
-
-            </aside>
-
-        </div>
-
     </section>
 
 </main>

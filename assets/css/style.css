@@ -3626,21 +3626,62 @@ FAQ
 
 }
 /* =========================================
-   PAYMENT SECTION
+   PAYMENT PAGE
 ========================================= */
 
-.payment-card {
-    margin-top: 35px;
-    padding: 40px;
+.payment-page {
+    min-height: 100vh;
+    background: #faf9f6;
+}
+
+.payment-hero {
+    text-align: center;
+    padding: 70px 20px 50px;
+}
+
+.payment-hero h1 {
+    margin: 15px 0;
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: 1.05;
+    font-weight: 500;
+}
+
+.payment-hero h1 span {
+    color: #b08d57;
+}
+
+.payment-hero p {
+    color: #777;
+    font-size: 17px;
+}
+
+.payment-section {
+    padding: 20px 20px 80px;
+}
+
+.payment-container {
+    width: min(1180px, 100%);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(300px, 0.9fr);
+    gap: 35px;
+    align-items: start;
+}
+
+.payment-main,
+.payment-summary {
     background: #fff;
     border: 1px solid rgba(176, 141, 87, 0.18);
     border-radius: 24px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
 }
 
-.payment-card h2 {
-    margin: 8px 0 30px;
-    font-size: 28px;
+.payment-main h2,
+.payment-summary h2 {
+    margin: 10px 0 30px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -3666,7 +3707,7 @@ FAQ
     cursor: pointer;
     text-align: left;
 
-    transition: all 0.25s ease;
+    transition: 0.25s ease;
 }
 
 .payment-method:hover {
@@ -3676,7 +3717,6 @@ FAQ
 .payment-method.active {
     border-color: #b08d57;
     background: #faf7ef;
-    box-shadow: 0 5px 20px rgba(176, 141, 87, 0.08);
 }
 
 .payment-method-icon {
@@ -3702,7 +3742,6 @@ FAQ
 }
 
 .payment-method-info strong {
-    font-size: 15px;
     color: #222;
 }
 
@@ -3712,25 +3751,20 @@ FAQ
 }
 
 .payment-panel {
-    padding: 25px;
+    padding: 28px;
 
     background: #faf9f6;
-
     border: 1px solid #eee;
-
-    border-radius: 16px;
+    border-radius: 18px;
 }
 
 .payment-panel h3 {
     margin: 0 0 10px;
-
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
 }
 
 .payment-panel p {
-    margin: 0 0 20px;
-
     color: #777;
     line-height: 1.7;
 }
@@ -3739,24 +3773,20 @@ FAQ
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-
-    margin-top: 20px;
+    margin: 25px 0;
 }
 
 .bank-details div {
     padding: 18px;
 
     background: #fff;
-
     border: 1px solid #eee;
-
     border-radius: 12px;
 }
 
 .bank-details span {
     display: block;
-
-    margin-bottom: 7px;
+    margin-bottom: 8px;
 
     font-size: 12px;
     color: #888;
@@ -3764,14 +3794,33 @@ FAQ
 
 .bank-details strong {
     font-size: 14px;
-    color: #222;
+}
+
+.payment-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.payment-amount span {
+    color: #777;
+}
+
+.payment-amount strong {
+    font-size: 24px;
+    color: #b08d57;
 }
 
 .payment-note {
     font-size: 13px;
 }
 
-.confirm-booking-btn {
+.confirm-payment-btn {
     width: 100%;
     margin-top: 25px;
     border: none;
@@ -3780,18 +3829,77 @@ FAQ
 
 
 /* =========================================
-   PAYMENT — MOBILE
+   PAYMENT SUMMARY
 ========================================= */
 
-@media (max-width: 700px) {
+.payment-summary {
+    position: sticky;
+    top: 100px;
+}
 
-    .payment-card {
-        padding: 25px 20px;
-        border-radius: 20px;
+.payment-summary-items {
+    border-top: 1px solid #ddd;
+}
+
+.payment-summary-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+.payment-summary-item span {
+    color: #333;
+}
+
+.payment-summary-item strong {
+    color: #b08d57;
+}
+
+.payment-summary-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 25px;
+}
+
+.payment-summary-total span {
+    color: #777;
+}
+
+.payment-summary-total strong {
+    font-size: 25px;
+    color: #b08d57;
+}
+
+
+/* =========================================
+   PAYMENT PAGE — MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .payment-hero {
+        padding: 45px 20px 30px;
     }
 
-    .payment-card h2 {
-        font-size: 24px;
+    .payment-container {
+        grid-template-columns: 1fr;
+    }
+
+    .payment-summary {
+        position: static;
+        order: -1;
+    }
+
+    .payment-main,
+    .payment-summary {
+        padding: 25px 20px;
+        border-radius: 20px;
     }
 
     .payment-methods {
@@ -3803,6 +3911,20 @@ FAQ
     }
 
 }
-#payment-section {
-    scroll-margin-top: 100px;
+
+@media (max-width: 480px) {
+
+    .payment-hero h1 {
+        font-size: 38px;
+    }
+
+    .payment-section {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .payment-panel {
+        padding: 20px 16px;
+    }
+
 }
