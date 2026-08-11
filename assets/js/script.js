@@ -188,6 +188,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const basketTotal = basketPanel.querySelector(".basket-total-price");
     const basketClose = basketPanel.querySelector(".basket-close");
     const basketContinue = basketPanel.querySelector(".basket-continue");
+    const basketCheckout =
+    basketPanel.querySelector(".basket-checkout");
 
     // -----------------------------------------
     // Save basket
@@ -363,6 +365,15 @@ document.addEventListener("DOMContentLoaded", function () {
         basketPanel.classList.remove("open");
 
     });
+    basketCheckout.addEventListener("click", function () {
+
+    if (bookingBasket.length === 0) {
+        return;
+    }
+
+    window.location.href = "checkout.php";
+
+});
 
     // -----------------------------------------
     // Initial load
@@ -371,3 +382,64 @@ document.addEventListener("DOMContentLoaded", function () {
     updateBasket();
 
 });
+// =========================================
+// CHECKOUT — LOAD EXISTING BOOKING BASKET
+// =========================================
+
+if (window.location.pathname.includes("checkout.php")) {
+
+    const checkoutItems = document.getElementById("checkout-items");
+    const checkoutTotal = document.getElementById("checkout-total");
+
+    const bookingBasket =
+        JSON.parse(localStorage.getItem("prestigeBooking")) || [];
+
+    let total = 0;
+
+    if (bookingBasket.length === 0) {
+
+        checkoutItems.innerHTML = `
+            <div class="checkout-empty">
+                <p>Your booking is currently empty.</p>
+
+                <a href="services.php" class="btn-outline">
+                    Browse Services
+                </a>
+            </div>
+        `;
+
+    } else {
+
+        bookingBasket.forEach(item => {
+
+            const price = Number(item.price);
+
+            total += price;
+
+            const checkoutItem =
+                document.createElement("div");
+
+            checkoutItem.className = "checkout-item";
+
+            checkoutItem.innerHTML = `
+                <div class="checkout-item-info">
+
+                    <strong>${item.service}</strong>
+
+                    <span>
+                        $${price.toFixed(2)}
+                    </span>
+
+                </div>
+            `;
+
+            checkoutItems.appendChild(checkoutItem);
+
+        });
+
+    }
+
+    checkoutTotal.textContent =
+        `$${total.toFixed(2)}`;
+
+}
