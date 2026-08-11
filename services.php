@@ -110,9 +110,13 @@
                         Starting from 25$
                     </span>
 
-                    <a href="booking.php" class="btn-book">
+                    <button
+                        type="button"
+                        class="btn-book add-to-booking"
+                        data-service="Hair Services"
+                        data-price="25">
                         Book Appointment
-                    </a>
+                    </button>
 
                 </div>
 
@@ -170,9 +174,13 @@
                         Starting from 8$
                     </span>
 
-                    <a href="booking.php" class="btn-book">
+                    <button
+                        type="button"
+                        class="btn-book add-to-booking"
+                        data-service="Nail Services"
+                        data-price="8">
                         Book Appointment
-                    </a>
+                    </button>
 
                 </div>
 
@@ -230,9 +238,13 @@
                         Starting from 7$
                     </span>
 
-                    <a href="booking.php" class="btn-book">
+                    <button
+                        type="button"
+                        class="btn-book add-to-booking"
+                        data-service="Barber Services"
+                        data-price="7">
                         Book Appointment
-                    </a>
+                    </button>
 
                 </div>
 
@@ -290,9 +302,13 @@
                         Starting from 20$
                     </span>
 
-                    <a href="booking.php" class="btn-book">
+                    <button
+                        type="button"
+                        class="btn-book add-to-booking"
+                        data-service="Spa Services"
+                        data-price="20">
                         Book Appointment
-                    </a>
+                    </button>
 
                 </div>
 
@@ -350,9 +366,13 @@
                         Starting from 50$
                     </span>
 
-                    <a href="booking.php" class="btn-book">
+                    <button
+                        type="button"
+                        class="btn-book add-to-booking"
+                        data-service="Bridal Beauty"
+                        data-price="50">
                         Book Appointment
-                    </a>
+                    </button>
 
                 </div>
 
@@ -393,4 +413,5 @@
 
     </div>
 </section>
+<script src="assets/js/script.js"></script>
 <?php include 'includes/footer.php'; ?>

@@ -35,12 +35,6 @@
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="btn btn-warning ms-3" href="booking.php">
-                        Book Now
-                    </a>
-                </li>
-
             </ul>
 
         </div>
