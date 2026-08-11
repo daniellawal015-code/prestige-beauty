@@ -168,7 +168,7 @@
                     </button>
 
                 </form>
-                <div class="payment-card">
+                <div class="payment-card" id="payment-section">
 
     <span class="section-tag">
         PAYMENT
