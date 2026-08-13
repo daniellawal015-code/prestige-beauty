@@ -5,7 +5,7 @@
     <div class="page-overlay"></div>
     <div class="container">
         <div class="page-content">
-            <span class="section-tag">✦ About Prestige Beauty</span>
+            <span class="section-tag">About Prestige Beauty</span>
             <h1>Where Luxury, Beauty & Wellness Become an Experience</h1>
             <p>
                 We create unforgettable beauty experiences through premium hair,
