@@ -4,8 +4,15 @@ console.log("JS connected");
 function adjustBodyPaddingForNavbar() {
     const navbar = document.getElementById('navbar');
     if (!navbar) return;
-    const height = navbar.offsetHeight;
-    document.body.style.paddingTop = height + 'px';
+    const computed = window.getComputedStyle(navbar);
+    // Only add body padding when navbar is actually fixed (either via class or computed position)
+    if (navbar.classList.contains('fixed-top') || computed.position === 'fixed') {
+        const height = navbar.offsetHeight;
+        document.body.style.paddingTop = height + 'px';
+    } else {
+        // remove any previously-added padding when navbar is in normal flow
+        document.body.style.paddingTop = '';
+    }
 }
 
 window.addEventListener('load', adjustBodyPaddingForNavbar);

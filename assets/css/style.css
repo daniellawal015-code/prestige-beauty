@@ -21,95 +21,103 @@ body{
     color:var(--black);
 }
 
-/* ================= NAVBAR ================= */
+/* NAVBAR (consolidated below) */
 
-.navbar{
-    background:rgba(0,0,0,.85)!important;
-    backdrop-filter:blur(12px);
-    padding:18px 0;
+.navbar {
+    position: relative; /* prevents hero overlap */
+    width: 100%;
+    background: #080808;
+    padding: 12px 0;
+    z-index: 1000;
+    transition: all .4s ease;
 }
 
-.navbar-brand{
-    font-family:'Playfair Display',serif;
-    font-size:30px;
-    color:var(--gold)!important;
+/* When scrolling */
+.navbar.scrolled {
+    background: rgba(10, 10, 10, .96);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .35);
+    padding: 8px 0;
 }
 
-.nav-link{
-    color:white!important;
-    margin-left:15px;
-    transition:.3s;
+/* ================================
+   LOGO
+================================ */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.nav-link:hover{
-    color:var(--gold)!important;
+.navbar-brand img {
+    width: 180px;
+    height: auto;
+    display: block;
 }
 
-.btn-warning{
-    background:var(--gold);
-    border:none;
-    color:black;
-    font-weight:600;
-}
-/* ================= NAVBAR ================= */
+/* ================================
+   NAV LINKS
+================================ */
 
-.navbar{
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    background:transparent;
-    transition:all .4s ease;
-    padding:20px 0;
-    z-index:999;
+.nav-link {
+    color: #fff !important;
+    margin-left: 20px;
+    transition: .3s;
 }
 
-.navbar.scrolled{
-    background:rgba(10,10,10,.96);
-    backdrop-filter:blur(12px);
-    box-shadow:0 5px 25px rgba(0,0,0,.35);
-    padding:12px 0;
+.nav-link:hover {
+    color: #d4af37 !important;
 }
 
-/* Make toggler easier to tap and ensure it's above overlays */
-.navbar .navbar-toggler{
-    padding:8px 10px;
-    border:0;
-    z-index:1100;
+/* ================================
+   MOBILE MENU BUTTON
+================================ */
+
+.navbar .navbar-toggler {
+    padding: 8px 10px;
+    border: 0;
+    z-index: 1100;
 }
 
-/* Ensure collapse panel sits above page content when open */
-.navbar .collapse.navbar-collapse{
-    z-index:1050;
+.navbar .collapse.navbar-collapse {
+    z-index: 1050;
 }
 
-.navbar-brand{
-    font-family:'Playfair Display', serif;
-    font-size:30px;
-    color:#fff !important;
+/* ================================
+   BUTTON
+================================ */
+
+.btn-warning {
+    background: #d4af37;
+    border: none;
+    color: #111;
+    font-weight: 600;
 }
 
-.nav-link{
-    color:#fff !important;
-    margin-left:20px;
-    transition:.3s;
+.btn-warning:hover {
+    background: #e6c65a;
 }
 
-.nav-link:hover{
-    color:#d4af37 !important;
-}
+/* ================================
+   MOBILE
+================================ */
 
-.btn-warning{
-    background:#d4af37;
-    border:none;
-    color:#111;
-    font-weight:600;
-}
+@media (max-width: 991px) {
 
-.btn-warning:hover{
-    background:#e6c65a;
-}
+    .navbar {
+        padding: 10px 0;
+    }
 
+    .navbar-brand img {
+        width: 145px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+}
 /* ================= HERO ================= */
 
 .hero{
@@ -137,7 +145,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-top:120px;
+    padding-top:0; /* reset - spacing handled when navbar is fixed */
 }
 
 .hero-content{
