@@ -390,5 +390,4 @@
     </div>
 
 </section>
-<script src="assets/js/script.js"></script>
 <?php include 'includes/footer.php'; ?>

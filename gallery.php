@@ -211,9 +211,3 @@
 </section>
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
-
-    <!-- JavaScript -->
-    <script src="assets/js/script.js"></script>
-
-</body>
-</html>

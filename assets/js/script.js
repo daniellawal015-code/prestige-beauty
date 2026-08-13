@@ -1,5 +1,16 @@
 console.log("JS connected");
 
+// Ensure fixed navbar doesn't cover page content by setting body padding-top
+function adjustBodyPaddingForNavbar() {
+    const navbar = document.getElementById('navbar');
+    if (!navbar) return;
+    const height = navbar.offsetHeight;
+    document.body.style.paddingTop = height + 'px';
+}
+
+window.addEventListener('load', adjustBodyPaddingForNavbar);
+window.addEventListener('resize', adjustBodyPaddingForNavbar);
+
 // Sticky Navbar
 window.addEventListener("scroll", function () {
 

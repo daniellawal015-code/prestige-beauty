@@ -71,6 +71,18 @@ body{
     padding:12px 0;
 }
 
+/* Make toggler easier to tap and ensure it's above overlays */
+.navbar .navbar-toggler{
+    padding:8px 10px;
+    border:0;
+    z-index:1100;
+}
+
+/* Ensure collapse panel sits above page content when open */
+.navbar .collapse.navbar-collapse{
+    z-index:1050;
+}
+
 .navbar-brand{
     font-family:'Playfair Display', serif;
     font-size:30px;
@@ -154,6 +166,36 @@ body{
     font-size:22px;
 
     margin-bottom:35px;
+
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+    .navbar{
+        padding:10px 0;
+    }
+
+    .navbar .container{
+        padding-left:12px;
+        padding-right:12px;
+    }
+
+    .navbar-brand{
+        font-size:22px;
+        padding-left:6px;
+        padding-right:6px;
+    }
+
+    .navbar .navbar-toggler{
+        margin-left:8px;
+    }
+
+    /* Reduce hero subtext size for better wrapping on small screens */
+    .hero p{
+        font-size:16px;
+        line-height:1.45;
+        margin-bottom:18px;
+    }
 
 }
 
