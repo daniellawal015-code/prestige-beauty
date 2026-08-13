@@ -17,7 +17,7 @@
 
             <div class="cta-buttons">
 
-                <a href="booking.php" class="btn-book">
+                <a href="services.php" class="btn-book">
                     Book Appointment
                 </a>
 

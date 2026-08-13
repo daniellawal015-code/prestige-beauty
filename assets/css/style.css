@@ -54,6 +54,10 @@ body{
 /* ================= NAVBAR ================= */
 
 .navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
     background:transparent;
     transition:all .4s ease;
     padding:20px 0;
@@ -121,7 +125,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-top:100px;
+    padding-top:120px;
 }
 
 .hero-content{
@@ -289,6 +293,10 @@ SERVICES
 
 }
 @media (max-width:768px){
+
+    .hero{
+        padding-top:100px;
+    }
 
     .hero h1{
 
@@ -894,11 +902,46 @@ font-size:18px;
 
 .footer-grid{
     grid-template-columns:1fr;
+    gap:30px;
     text-align:center;
+    justify-items:center;
+}
+
+.footer-grid > div{
+    width:100%;
 }
 
 .footer-social{
+    display:flex;
     justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.footer ul{
+    margin:0 auto;
+    max-width:260px;
+}
+
+.footer h3,
+.footer h4{
+    text-align:center;
+}
+
+.footer-contact{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.footer-contact p{
+    margin: 0 0 12px;
+}
+
+.footer-bottom{
+    padding:25px 15px 10px;
 }
 
 }
@@ -921,61 +964,6 @@ font-size:18px;
     opacity: 1;
     transform: translateY(0);
 }
-/* ================= PAGE HERO ================= */
-
-.page-hero{
-
-    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
-    url("../images/gallery/interior.jpg");
-
-    background-size:cover;
-    background-position:center;
-
-    padding:180px 20px 120px;
-
-    text-align:center;
-
-    color:#fff;
-
-}
-
-.page-hero h1{
-
-    font-size:64px;
-
-    font-family:'Playfair Display', serif;
-
-    margin-bottom:20px;
-
-}
-
-.page-hero p{
-
-    font-size:22px;
-
-    max-width:700px;
-
-    margin:auto;
-
-    color:#ddd;
-
-}
-
-@media(max-width:768px){
-
-.page-hero h1{
-
-    font-size:42px;
-
-}
-
-.page-hero p{
-
-    font-size:18px;
-
-}
-
-}
 /* ===========================
    ABOUT PAGE HERO
 =========================== */
@@ -995,6 +983,7 @@ font-size:18px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 180px 20px 120px;
     background:
         linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
         url("../images/gallery/interior.jpg");
@@ -1399,18 +1388,52 @@ font-size:18px;
         padding: 34px 24px;
     }
     .page-hero {
-        min-height: 60vh;
+        min-height: 56vh;
+        padding: 140px 20px 70px;
     }
 
     .page-content h1 {
-        font-size: 44px;
+        font-size: 36px;
+        max-width: 90%;
+        margin: 0 auto 18px;
+        line-height: 1.12;
     }
 
     .page-content p,
     .story-content p,
     .why-copy p,
     .cta-content p {
-        font-size: 17px;
+        font-size: 16px;
+    }
+
+    .page-content p {
+        max-width: 88%;
+        margin: 0 auto;
+        line-height: 1.85;
+    }
+
+    .services-hero {
+        min-height: auto;
+        height: auto;
+        padding: 110px 20px 70px;
+    }
+
+    .services-hero .hero-content {
+        padding: 0;
+    }
+
+    .services-hero h1 {
+        font-size: 36px;
+        max-width: 90%;
+        margin: 0 auto 18px;
+        line-height: 1.18;
+    }
+
+    .services-hero p {
+        font-size: 16px;
+        max-width: 700px;
+        margin: 0 auto 28px;
+        line-height: 1.8;
     }
 
     .story-grid,

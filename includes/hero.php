@@ -8,7 +8,7 @@
             Premium Hair • Nails • Barber • Spa Experience
         </p>
 
-        <a href="booking.php" class="btn-book">
+        <a href="services.php" class="btn-book">
 
             Book Appointment
 

@@ -23,7 +23,7 @@
 
             <div class="hero-buttons">
 
-                <a href="booking.php" class="btn-primary">
+                <a href="services.php" class="btn-primary">
                     Book Appointment
                 </a>
 
@@ -377,7 +377,7 @@
 
             </div>
 
-            <a href="booking.php" class="promise-btn">
+            <a href="services.php" class="promise-btn">
                 Book Appointment
             </a>
 

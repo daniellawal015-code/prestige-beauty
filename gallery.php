@@ -22,7 +22,7 @@
             modern barbering and elegant bridal beauty.
         </p>
 
-        <a href="booking.php" class="btn-primary">
+        <a href="services.php" class="btn-primary">
             Book Appointment
         </a>
 
@@ -162,7 +162,7 @@
 
         <div class="stats-buttons">
 
-            <a href="booking.php" class="btn-primary">
+            <a href="services.php" class="btn-primary">
                 Book Appointment
             </a>
 
@@ -196,7 +196,7 @@
 
         <div class="cta-buttons">
 
-            <a href="booking.php" class="btn-primary">
+            <a href="services.php" class="btn-primary">
                 Book Appointment
             </a>
 

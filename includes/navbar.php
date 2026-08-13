@@ -1,3 +1,6 @@
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
     <div class="container">
 

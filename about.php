@@ -47,7 +47,7 @@
                     <div class="feature-pill">✓ Customer Satisfaction</div>
                 </div>
 
-                <a href="booking.php" class="btn-book">Book Your Experience</a>
+                <a href="services.php" class="btn-book">Book Your Experience</a>
             </div>
         </div>
     </div>
@@ -201,7 +201,7 @@
             <span class="section-tag">Your Beauty, Your Signature</span>
             <h2>Reserve a refined salon experience today.</h2>
             <p>From hair and nails to spa indulgence, every appointment is designed to make you feel exceptional.</p>
-            <a href="booking.php" class="btn-book">Book Your Experience</a>
+            <a href="services.php" class="btn-book">Book Your Experience</a>
         </div>
     </div>
 </section>
