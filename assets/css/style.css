@@ -4123,3 +4123,28 @@ FAQ
         width: 40px;
     }
 }
+/* Sticky Navbar Styling */
+header, 
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps navbar above all hero background layers and cards */
+    background-color: #0d0d0d; /* Match your header background color */
+    transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+    header, .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    /* Push down top hero so sticky nav doesn't cover top of hero */
+    .services-hero {
+        margin-top: 60px !important; 
+    }
+}
