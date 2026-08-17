@@ -51,7 +51,8 @@ body{
 }
 
 .navbar-brand img {
-    width: 180px;
+    width: auto;
+    max-width: 160px; /* desktop default */
     height: auto;
     display: block;
 }
@@ -110,7 +111,8 @@ body{
     }
 
     .navbar-brand img {
-        width: 145px;
+        max-width: 145px; /* tablet / small desktop */
+        width: auto;
     }
 
     .nav-link {
@@ -192,6 +194,14 @@ body{
         font-size:22px;
         padding-left:6px;
         padding-right:6px;
+    }
+
+    /* Mobile logo cap to prevent overflow on real devices */
+    .navbar-brand img {
+        max-width: 150px; /* keep between ~120-160px on phones */
+        width: auto;
+        height: auto;
+        display: block;
     }
 
     .navbar .navbar-toggler{
@@ -372,6 +382,44 @@ SERVICES
 
     }
 
+}
+/* Base styles for mobile view */
+@media (max-width: 768px) {
+  /* Reduce padding on the container so elements sit higher up */
+  .hero-content {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  /* Keep badge small and close to the header */
+  .hero-content .section-tag {
+    font-size: 0.75rem; /* ~12px */
+    padding: 4px 12px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+
+  /* Shrink heading font & line-height so it wraps into 2-3 lines */
+  .hero-content h1 {
+    font-size: 1.65rem; /* ~26px to 28px */
+    line-height: 1.2;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Compress the subtitle text */
+  .hero-content p {
+    font-size: 0.85rem; /* ~13px-14px */
+    line-height: 1.35;
+    margin-bottom: 1rem;
+  }
+
+  /* Adjust button size to fit smoothly */
+  .hero-content .btn-book {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
 }
 /*=====================
 WHY US
@@ -2051,6 +2099,52 @@ line-height:1.9;
 .btn-outline:hover{
     background:#d4af37;
     color:#111;
+}
+/*==========================
+   SERVICES HERO MOBILE FIX
+==========================*/
+@media (max-width: 768px) {
+  /* Reduce container height and inner padding */
+  .services-hero {
+    height: auto !important;
+    min-height: 480px !important;
+    padding: 60px 16px 40px !important;
+  }
+
+  .services-hero .hero-content {
+    padding: 0 10px;
+  }
+
+  /* Target the "OUR SERVICES" tag/badge */
+  .services-hero .section-tag,
+  .services-hero .hero-content .section-tag {
+    font-size: 0.75rem !important; /* ~12px */
+    padding: 6px 16px !important;
+    margin-bottom: 12px !important;
+    display: inline-block !important;
+    letter-spacing: 1.5px !important;
+  }
+
+  /* Scaled down heading so it fits cleanly into 2-3 lines */
+  .services-hero h1 {
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+    margin: 12px 0 !important;
+  }
+
+  /* Compress the subtitle text */
+  .services-hero p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 24px !important;
+  }
+
+  /* Button resize for mobile viewport */
+  .services-hero .btn-book,
+  .services-hero .btn-primary {
+    padding: 12px 28px !important;
+    font-size: 14px !important;
+  }
 }
 /* ===============================
    GALLERY HERO

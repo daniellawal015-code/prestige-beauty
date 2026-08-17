@@ -57,7 +57,7 @@
 
     <button data-filter="nail">Nails</button>
 
-    <button data-filter="barber">Barber</button>
+    <button data-filter="barber">Men's Grooming</button>
 
     <button data-filter="spa">Spa</button>
 

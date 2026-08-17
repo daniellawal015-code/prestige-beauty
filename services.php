@@ -11,25 +11,25 @@
 
         <div class="hero-content">
 
-            <span class="section-tag">
-                Our Services
-            </span>
+    <span class="section-tag">
+        Our Services
+    </span>
 
-            <h1>
-                Luxury Beauty Services Crafted Around You
-            </h1>
+    <h1>
+        Luxury Beauty Services Crafted Around You
+    </h1>
 
-            <p>
-                Experience world-class hair, nails, spa, barber and bridal
-                beauty services delivered by passionate professionals who
-                believe every client deserves excellence.
-            </p>
+    <p>
+        Experience world-class hair, nails, spa, barber and bridal
+        beauty services delivered by passionate professionals who
+        believe every client deserves excellence.
+    </p>
 
-            <a href="services.php" class="btn-book">
-                Book Appointment
-            </a>
+    <a href="services.php" class="btn-book">
+        Book Appointment
+    </a>
 
-        </div>
+</div>
 
     </div>
 
