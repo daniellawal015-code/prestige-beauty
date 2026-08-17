@@ -96,7 +96,7 @@
 
                     <div><i class="fa-solid fa-check"></i> Hair Cutting & Styling</div>
 
-                    <div><i class="fa-solid fa-check"></i> Hair Coloring</div>
+                    <div><i class="fa-solid fa-check"></i> Hair Tinting</div>
 
                     <div><i class="fa-solid fa-check"></i> Hair Treatment</div>
 
